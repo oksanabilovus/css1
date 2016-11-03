@@ -1,0 +1,32 @@
+ p {
+     font-family: serif;
+     font-style: italic;
+ }
+ body {
+     background-image: url(fon.jpg);
+     width: 100%
+ }    
+ h1.hello {
+     color: purple;
+     font-family: fantasy;
+     font-weight: 200;
+     text-align: center;
+     max-width: 600px;
+     margin: auto;
+ }
+ div.logo {
+     max-width: 100%;
+     margin: auto;
+ }
+ .zag {
+     background-color: #E0FFFF;
+ }
+ .osob {
+     background-color: #E0FFFF;
+ }
+ article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.iconsocserv {
+    width: 32px
+}
