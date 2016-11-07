@@ -12,14 +12,18 @@ header {
     text-decoration: underline;
     height: 50px;   
  }
+ nav {
+     display: flex;
+     justify-content: space-around;
+ }
  section#sidebar {
     background-color: #FAEBD7; 
-    float: left;
+    float: right;
     width: 25%;
     height: 400px;
 }
 section#content {
-    margin-left: 25%;
+    margin-right: 25%;
     height: 400px;
     background-color: #FFDAB9;
 }
@@ -28,8 +32,8 @@ footer {
 }  
 h1 {
      color: purple;
-     font-family: 'Tangerine', serif;
-     font-size: 48px;
+     font-family: 'Shrikhand', serif;
+     font-size: 58px;
      text-align: center;
 }
 .iconsocserv {
