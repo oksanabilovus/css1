@@ -4,5 +4,6 @@ h2#music {
     text-align: center;
 }
 section#content2 {
+    margin-right: 0;
     background-color: #FFDAB9;
 }
