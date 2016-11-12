@@ -6,25 +6,35 @@
 }
 header {
     height: 150px;
+    background-image: url(head.png);
+ }
+ #logo {
+     display: flex;
+     justify-content: flex-start;
  }
  nav {
-    text-align: center;
     text-decoration: underline;
-    height: 50px;   
+    height: 50px; 
+    background-color:#F7DAA8;
  }
  nav {
      display: flex;
      justify-content: space-around;
+     align-items: flex-end;
+ }
+ nav:hover { 
+     background-color:#FAD391;
+     
  }
  section#sidebar {
     background-color: #FAEBD7; 
     float: right;
     width: 25%;
-    height: 400px;
+    height: 800px;
 }
 section#content {
     margin-right: 25%;
-    height: 400px;
+    height: 800px;
     background-color: #FFDAB9;
 }
 footer {
@@ -33,9 +43,20 @@ footer {
 h1 {
      color: purple;
      font-family: 'Shrikhand', serif;
-     font-size: 58px;
+     font-size: 48px;
      text-align: center;
+     text-shadow: 5px 5px 15px black;
 }
+.old  {
+    float: right; 
+    margin: 7px 0 7px 7px; 
+    border: 2px solid #ff0000;
+   }
+.oldplan {
+    float:left; 
+    margin: 7px 7px 7px 0;
+    border: 2px solid #ff0000;
+   }
 .iconsocserv {
     width: 32px
 }

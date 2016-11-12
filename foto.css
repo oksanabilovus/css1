@@ -1,0 +1,21 @@
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+#friend {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#famil {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+img {
+   border: 2px solid #ff0000; 
+}
+section#contentfoto {
+    background-color: #FFDAB9;
+}
